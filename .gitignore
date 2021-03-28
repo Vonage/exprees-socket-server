@@ -1,0 +1,11 @@
+.idea
+node_modules
+
+# yarn:
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+!.yarn/patches
+.pnp.*
