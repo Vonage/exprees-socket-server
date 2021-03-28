@@ -14,7 +14,7 @@ server.listen(3008);
 // Register the index route of your app that returns the HTML file
 
 app.get('/v2/users/709189', function(req, res) {
-  console.log("akdjflajflaj")
+  console.log("Request made")
   res.send('Hello World!')
 });
 
